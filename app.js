@@ -5,7 +5,7 @@ const path = require('path');
 /* config public */
 app.use(express.static(path.resolve(__dirname, 'public')))
 
-app.listen(process.envı || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log('The server is running');
 })
 //npx nodemon
