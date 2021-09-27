@@ -1,0 +1,53 @@
+/* Header */
+.header {
+    background-color: #EAC926;
+}
+.search-bar {
+    width: 300px;
+    height: 15px;
+    display: inline-block;
+    background-color: #eaeaea;
+    border: solid 0.5px black;
+}
+header nav {
+    font-size: 12px;
+}
+.header nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.header nav ul >  *{
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    max-width: 50px;
+}
+
+.header > nav{
+    display: none;
+}
+.cuotas{
+    font-size: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+.logo{
+    justify-content: flex-start;
+}

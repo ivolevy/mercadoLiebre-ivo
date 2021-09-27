@@ -1,0 +1,179 @@
+/* Content */
+.l1:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l2:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l3:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l4:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l5:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l6:hover{
+    color: red;
+    transition: all 0.2s;
+}
+.l7:hover{
+    color: red;
+    transition: all 0.2s;
+}
+
+.banner{
+    width: 100%;
+}
+.titles{
+    text-align: center;
+}
+
+article div.main-article{
+    width: 100%;
+}
+
+.price{
+    font-size: 18px;
+    display: inline;
+}
+
+.discount{
+    font-size: 16px;
+    font-weight: normal;
+    display: inline;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: normal;
+    display: none;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+main section article{
+    background-color: #fff;
+    margin: 10px;
+    position: relative;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+/* product */
+
+.product{
+    margin-bottom: 10px;
+}
+.description {
+    display: none;
+}
+
+main section article i{
+    color:#39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    right: 20px;
+    left: 30px;
+    top: -1px;
+}
+
+
+/* truck icon */
+.fas.fa-truck{
+    color: #39b54a;
+}
+
+.fas.fa-search{
+    margin-top: 20px;
+    margin-right: 80px;
+    background-color: white;
+}
+
+.line{
+    z-index: 1;
+}
+
+.div-footer:hover i{
+    color: red;
+}
+
+main section article:hover{
+    animation-name: colorfull;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-delay: inherit;
+
+}
+@keyframes colorfull {
+    0%{
+        box-shadow: 20px 20px 20px rgb(254, 12, 105);
+    }
+    50%{
+        box-shadow: 20px 20px 20px rgb(70, 20, 20);
+    }
+    100%{
+        box-shadow: 20px 20px 20px rgb(254, 12, 105);
+    }
+}
+
+main section article:hover i{
+    animation-name: spin;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+     animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.copyrigth{
+    margin-top: 20px;
+}
+
+
+.avatar , .interests, .user{
+    border: 3px solid rgb(23, 23, 23);
+}
+
+.avatar:hover , .interests:hover, .user:hover{
+    border: 3px solid rgb(237, 31, 144);
+    transition: all 1s;
+}
