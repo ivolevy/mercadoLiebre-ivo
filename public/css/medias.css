@@ -2,6 +2,9 @@
     .logo{
         width: auto;
     }
+    .search{
+        display: none;
+    }
 }
 
 @media (min-width: 361px) {
@@ -35,6 +38,9 @@
         margin-top: 20px;
         margin-bottom: 20px;
     } 
+    .search{
+        text-align: center;
+    }
 }  
 
 @media (min-width: 768px){
@@ -43,6 +49,9 @@
         justify-content: space-between;
         margin: 0px 20px 10px 20px;
         
+    }
+    .search{
+        margin-top: -17px;
     }
     .cuotas{
         max-width: 350px;
@@ -124,7 +133,8 @@
         flex-direction: row;
         justify-content: center;
     }
-  
-    
+    .search{
+ margin-top: 0.5px;
+    }
 }
 
