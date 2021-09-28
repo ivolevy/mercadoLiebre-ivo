@@ -12,6 +12,7 @@
         display:block; /* hacer ver un elemento que antes no se mostraba */
     }
     main section div .products{
+    
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -20,6 +21,7 @@
         position: relative;
     }
     main section div .products{
+    
         width: 45%;
         opacity: 1;
     }  
@@ -129,6 +131,7 @@
 
     /* body */
     .products{
+    
         display: flex;
         flex-direction: row;
         justify-content: center;
