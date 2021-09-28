@@ -42,7 +42,7 @@ rel="stylesheet" />
                 <!-- enctype="multipart/form-data" si el formulario incluye mas que solo texto-->
 
                 <div class="form-control">
-                    <label for="name">Nam and surname</label>
+                    <label for="name">Nombre y apellido</label>
                     <input type="text" name="name" id="name" required>
                 </div>
 
@@ -57,31 +57,31 @@ rel="stylesheet" />
                 </div>
 
                 <div class="form-control">
-                    <label for="password">Repetir contraseña</label>
+                    <label for="password">repetir contraseña</label>
                     <input type="password" name="password" id="password" required>
                 </div>
 
                 <div class="form-control">
-                    <label for="date">Fecha de nacimiento</label>
+                    <label for="date">fecha de nacimiento</label>
                     <input type="date" name="date" id="date" required>
                 </div>
 
                 <br>
 
                 <div class="form-control user">
-                    <label for="perfil">Perfil de usuario</label>
+                    <label for="perfil">Usuario</label>
                     <select name="perfil" id="perfil" required>
-                        <option value="" disabled selected>selecciona una opcion:</option>
+                        <option value="" disabled selected>Select an option:</option>
                         <option value="comprador">Comprador</option>
                         <option value="vendedor">Vendedor</option>
                     </select>
                 </div>
 
-                <div class="form-control interests">
-                    <p class="interestCategories">Interest categories</p>
-                    <input type="checkbox" name="interest" id="electronic" value="electronic" required><label for="electronic">electronic</label>
-                    <input type="checkbox" name="healthy" id="healthy" value="healthy" required><label for="healthy">health</label>
-                    <input type="checkbox" name="interest" id="clothes" value="clothes" required><label for="clothes">clothes</label>
+                <div class="form-control interests" aria-required="true">
+                    <p class="interestCategories">Categorias de interes</p>
+                    <input type="checkbox" name="interest" id="electronic" value="electronic" ><label for="electronic">electronica</label>
+                    <input type="checkbox" name="healthy" id="healthy" value="healthy" ><label for="healthy">salud</label>
+                    <input type="checkbox" name="interest" id="clothes" value="clothes" ><label for="clothes">moda</label>
                 </div>      
 
                 <div class="form-control avatar">

@@ -18,14 +18,14 @@ app.get('/', (req,res) =>{
 app.get('/register', (req,res) =>{
     res.sendFile(path.resolve(__dirname, './views/register.html'));
 })
-app.get('/register', (req,res) =>{
-    res.send(path.resolve('ya te registraste!'));
-})
+app.post('/register', (req,res)=> {
+    res.send('Ya te registraste campeón');
+});
 
 app.get('/login', (req,res) =>{
     res.sendFile(path.resolve(__dirname, './views/login.html'));
 })
-app.get('/login', (req,res) =>{
+app.post('/login', (req,res) =>{
     res.send(path.resolve('Ya te logueaste!'));
 })
 
