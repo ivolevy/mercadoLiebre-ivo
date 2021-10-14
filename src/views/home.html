@@ -1,45 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title title="Mercado liebre">Mercado Liebre</title>
-        <link rel="stylesheet" href="/css/styles.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-rel="stylesheet" />
-    </head>
+        <!-- head --> 
+    <% include('partials/head') %> 
+        <!-- head --> 
     <body>
-        <header class="header">
-            <div class="top-header">
-                <a href="/"><img src="/images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre" class="logo"></a>
-               
-                <p class="cuotas"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
-            </div>
-
-            <div class="burger-menu">
-                <a href="#">
-                    <i class="fas fa-bars"></i>
-                </a>
-            </div>
-            <nav class="main-navbar">
-                <div class="search">
-                    <p><input class="search-bar" placeholder="buscar productos, marcas y mas"></input></p>
-                </div>
-                <ul class="first-ul">
-                    <li><a href="#" class="l1">Ofertas</a></li>
-                    <li><a href="#" class="l2">Tiendas Oficiales</a></li>
-                    <li><a href="#" class="l3">Vender</a></li>
-                    <li><a href="#" class="l4">Ayuda</a></li>
-                </ul>
-                <ul class="second-ul">
-                    <li><a href="/register" class="l5">Creá tu cuenta <i class="fas fa-sign-in-alt"></i></a></li>
-                    <li><a href="/login" class="l6">Ingresá <i class="fas fa-user-check"></i></a></li>
-                    <li><a href="#" class="l7">Mis compras <i class="fas fa-shopping-bag"></i></a></li>
-                </ul>
-            </nav>
-    
-        </header>
+    <!-- header -->
+    <% include('partials/header') %> 
+    <!-- header -->
         <section>
                 <img src="/images/img-home-banner.jpg" width="360" alt="Banner de ofertas" class="banner">
         </section>
@@ -140,40 +107,8 @@ rel="stylesheet" />
                </article>
             </section>
         </main>
-        <footer class="footer">
-            <div class="div-footer">
-                <div class="icon-footer">
-                    <i class="fas fa-credit-card"></i>
-                </div>
-                <h3>Paga con tarjeta de credito</h3>
-                <p>Lorem ipsum dolor sit amet consectetur <br>
-                adipisicing elit. Totam cupiditate officia illum asperiores, <br>
-                maiores corporis ab accusamus fugit! Nihil, quam.</p>
-            </div>
-
-           <div class="div-footer">
-            <div class="icon-footer">
-                <i class="fas fa-gift"></i>
-            </div>
-            <h3>Envio gratis desde $2.500</h3>
-            <p>Lorem ipsum dolor sit amet consectetur <br>
-            adipisicing elit. Totam cupiditate officia illum asperiores, <br>
-            maiores corporis ab accusamus fugit! Nihil, quam.</p>
-
-           </div>
-           <div class="div-footer">
-            <div class="icon-footer">
-                <i class="fas fa-user-shield"></i>
-            </div>
-            <h3>Paga con tarjeta de credito</h3>
-            <p>Lorem ipsum dolor sit amet consectetur <br>
-            adipisicing elit. Totam cupiditate officia illum asperiores, <br>
-            maiores corporis ab accusamus fugit! Nihil, quam.</p>
-           </div>
-               
-        </footer>
-        <div class="copyrigth">
-            <p><span>&copy </span>Mercado liebre 1999-2021 todos los derechos reservados</p>
-           </div>        
+        <!-- footer -->
+        <% include('partials/footer') %> 
+        <!-- footer -->
     </body>
 </html>
